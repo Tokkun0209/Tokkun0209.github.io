@@ -1,20 +1,22 @@
 
-.body {
+body {
     font-family:"Avenir Next";
+    background-image:url("main.png");
+    background-size:cover;
 }
+
 
 li {
     list-style:none;
 }
 
 .header {
-    background-color:#26d0c9;
-    color:#fff;
-    height:90px;
+    position:relative;
 }
 
 .header-logo {
-    color: orangered;
+    font-size:75px;
+    color:greenyellow;
     float:left;
     padding:20px 40px;
 
@@ -22,19 +24,23 @@ li {
 
 .header-list li {
     color:#fff;
-    float:left;
+    float:right;
     padding:26px 60px;
 }
 
 
-.main {
-    background-color:gray;
-    padding:200px;
-    
+/*.main {
+    padding: 100px;
+}*/
+
+.main-logo {
+    float:left;
+    padding:100px;
 }
 
-.main contents {
+.main-contents {
     float:left;
+    padding:30px 100px;
 }
 
 
@@ -43,5 +49,19 @@ li {
 
 
 .footer {
+    font-size:50px;
+    position:absolute;
+    bottom:0px;
+    color:#fff;
+}
+
+.footer-logo {
+    float:left;
+    padding:25px 25px;
+
+}
+.footer-list li {
     float:right;
+    padding:25px 30px;
+
 }
